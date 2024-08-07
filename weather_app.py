@@ -2,7 +2,7 @@ import requests
 import tkinter as tk
 from tkinter import messagebox
 
-API_KEY = '5b0ada689702fe63ea8a6cf748c51814'  # Replace with your OpenWeatherMap API key
+API_KEY = 'your_openweathermap_api_key'  # Replace with your OpenWeatherMap API key
 
 def get_weather_data(location):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={API_KEY}&units=metric"
