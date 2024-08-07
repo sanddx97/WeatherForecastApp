@@ -12,5 +12,19 @@ This is a simple Python application that fetches real-time weather data for a us
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sanddx97/WeatherForecastApp.git
+   git clone https://github.com/yourusername/WeatherForecastApp.git
    cd WeatherForecastApp
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install requests
+   ```
+
+3. Replace `your_openweathermap_api_key` in `weather_app.py` with your actual OpenWeatherMap API key.
+
+## Usage
+
+Run the application:
+```bash
+python weather_app.py
